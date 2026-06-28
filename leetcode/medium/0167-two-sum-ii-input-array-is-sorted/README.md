@@ -54,22 +54,21 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.7 MB  
-**Submitted:** 2026-06-28T13:14:46.668Z  
+**Runtime:** 2 ms (beats 96.01%)  
+**Memory:** 48.5 MB (beats 41.88%)  
+**Submitted:** 2026-06-28T13:17:05.830Z  
 
 ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
-        int n =numbers.length;
         int left =0;
-        int right = n-1;
+        int right = numbers.length-1;
 
         while(left<=right){
-            long sum = numbers[left]+numbers[right];
+            int sum = numbers[left]+numbers[right];
             if(sum==target){
                 return new int[] {left+1,right+1};
-            }else if(sum<target){
+            } if(sum<target){
                 left++;
             }else{
                 right--;

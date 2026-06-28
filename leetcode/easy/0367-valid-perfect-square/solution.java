@@ -1,6 +1,7 @@
 class Solution {
     public boolean isPerfectSquare(int num) {
-        if (num == 1) return true;
+        
+        if (num < 2) return true;
 
         long left = 1;
         long right = num/2;

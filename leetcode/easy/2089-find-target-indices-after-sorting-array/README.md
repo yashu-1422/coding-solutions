@@ -52,9 +52,9 @@ The index where nums[i] == 5 is 4.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 42.9 MB  
-**Submitted:** 2026-06-25T18:00:26.178Z  
+**Runtime:** 6 ms (beats 27.16%)  
+**Memory:** 46.1 MB (beats 49.54%)  
+**Submitted:** 2026-06-25T18:00:35.325Z  
 
 ```java
 class Solution {

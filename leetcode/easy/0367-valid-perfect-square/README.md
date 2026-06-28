@@ -39,9 +39,9 @@ Explanation: We return false because 3.742 * 3.742 = 14 and 3.742 is not an inte
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.2 MB  
-**Submitted:** 2026-06-25T18:07:39.481Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 41.9 MB (beats 86.90%)  
+**Submitted:** 2026-06-25T18:07:47.348Z  
 
 ```java
 class Solution {

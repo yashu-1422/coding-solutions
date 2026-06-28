@@ -55,14 +55,14 @@ Explanation: The sum of -1 and 0 is -1. Therefore index1 = 1, index2 = 2. We ret
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 43 MB  
-**Submitted:** 2026-06-28T13:13:10.896Z  
+**Memory:** 43.1 MB  
+**Submitted:** 2026-06-28T13:14:04.364Z  
 
 ```java
 class Solution {
     public int[] twoSum(int[] numbers, int target) {
         int n =numbers.length;
-        int left =0;
+        int left =1;
         int right = n-1;
 
         while(left<=right){

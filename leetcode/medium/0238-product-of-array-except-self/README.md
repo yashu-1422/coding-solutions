@@ -43,27 +43,34 @@ Output: [0,0,9,0,0]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 2 ms (beats 94.38%)  
-**Memory:** 71.8 MB (beats 60.43%)  
-**Submitted:** 2026-06-29T17:15:16.282Z  
+**Runtime:** 4 ms (beats 6.68%)  
+**Memory:** 64.9 MB (beats 80.57%)  
+**Submitted:** 2026-06-29T17:17:09.369Z  
 
 ```java
 class Solution {
     public int[] productExceptSelf(int[] nums) {
+
         int n = nums.length;
+
+        int[] left = new int[n];
+        int[] right = new int[n];
         int[] ans = new int[n];
 
-        // Step 1: Store prefix products in ans[]
-        ans[0] = 1;
-        for (int i = 1; i < n; i++) {
-            ans[i] = ans[i - 1] * nums[i - 1];
+        left[0] = 1;
+
+        for(int i=1;i<n;i++){
+            left[i] = left[i-1] * nums[i-1];
         }
 
-        // Step 2: Multiply by suffix products
-        int rightProduct = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            ans[i] = ans[i] * rightProduct;
-            rightProduct *= nums[i];
+        right[n-1]=1;
+
+        for(int i=n-2;i>=0;i--){
+            right[i]=right[i+1]*nums[i+1];
+        }
+
+        for(int i=0;i<n;i++){
+            ans[i]=left[i]*right[i];
         }
 
         return ans;

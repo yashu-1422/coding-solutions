@@ -33,9 +33,9 @@ Output: "-10"
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.3 MB  
-**Submitted:** 2026-06-29T18:03:42.172Z  
+**Runtime:** 1 ms (beats 71.23%)  
+**Memory:** 42.8 MB (beats 42.69%)  
+**Submitted:** 2026-06-29T18:03:52.776Z  
 
 ```java
 class Solution {

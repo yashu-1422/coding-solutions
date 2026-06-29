@@ -43,9 +43,9 @@ Output: [0,0,9,0,0]
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.4 MB  
-**Submitted:** 2026-06-29T17:15:08.730Z  
+**Runtime:** 2 ms (beats 94.38%)  
+**Memory:** 71.8 MB (beats 60.43%)  
+**Submitted:** 2026-06-29T17:15:16.282Z  
 
 ```java
 class Solution {

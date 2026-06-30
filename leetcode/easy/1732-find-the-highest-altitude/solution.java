@@ -5,6 +5,6 @@ class Solution {
            current +=gain[i];
             highest = Math.max(current,highest);
         }
-        return gain[highest];
+        return highest;
     }
 }

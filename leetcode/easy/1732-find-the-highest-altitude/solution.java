@@ -3,7 +3,7 @@ class Solution {
         int highest=0;int current = 0;
         for(int i =0;i<gain.length;i++){
            current +=gain[i];
-            Math.max(current,highest);
+            highest = Math.max(current,highest);
         }
         return gain[highest];
     }

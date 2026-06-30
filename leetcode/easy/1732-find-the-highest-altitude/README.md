@@ -40,8 +40,8 @@ Explanation: The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.4 MB  
-**Submitted:** 2026-06-30T18:07:24.149Z  
+**Memory:** 42.5 MB  
+**Submitted:** 2026-06-30T18:08:45.171Z  
 
 ```java
 class Solution {
@@ -51,7 +51,7 @@ class Solution {
            current +=gain[i];
             highest = Math.max(current,highest);
         }
-        return gain[highest];
+        return highest;
     }
 }
 ```

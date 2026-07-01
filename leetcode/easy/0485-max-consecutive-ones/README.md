@@ -1,4 +1,4 @@
-# Max Consecutive Ones
+# Q3. Max Consecutive Ones
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 
@@ -36,8 +36,8 @@ Output: 2
 
 **Language:** Java  
 **Runtime:** 3 ms (beats 60.62%)  
-**Memory:** 52.8 MB (beats 10.30%)  
-**Submitted:** 2026-07-01T19:09:56.159Z  
+**Memory:** 52.4 MB (beats 65.58%)  
+**Submitted:** 2026-07-01T19:10:34.988Z  
 
 ```java
 class Solution {

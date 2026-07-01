@@ -46,33 +46,22 @@ Output: 1
 ## Solution
 
 **Language:** Java  
-**Runtime:** 15 ms (beats 52.53%)  
-**Memory:** 46.5 MB (beats 20.60%)  
-**Submitted:** 2026-06-30T17:55:39.372Z  
+**Runtime:** 11 ms (beats 91.55%)  
+**Memory:** 46.3 MB (beats 62.31%)  
+**Submitted:** 2026-07-01T18:29:30.301Z  
 
 ```java
 class Solution {
     public int numberOfSubstrings(String s) {
+        int res = 0;
+        int[] p = {-1, -1, -1};
 
-        int[] freq = new int[3];
-        int left = 0;
-        int ans = 0;
-        int n = s.length();
-
-        for (int right = 0; right < n; right++) {
-
-            freq[s.charAt(right) - 'a']++;
-
-            while (freq[0] > 0 && freq[1] > 0 && freq[2] > 0) {
-
-                ans += n - right;
-
-                freq[s.charAt(left) - 'a']--;
-                left++;
-            }
+        for (int i = 0; i < s.length(); i++) {
+            p[(s.charAt(i) & 31) - 1] = i;
+            res += Math.min(p[0], Math.min(p[1], p[2])) + 1;
         }
 
-        return ans;
+        return res;
     }
 }
 ```

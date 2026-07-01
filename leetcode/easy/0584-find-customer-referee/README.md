@@ -1,4 +1,4 @@
-# Find Customer Referee
+# Q4. Find Customer Referee
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
 
@@ -62,9 +62,9 @@ Output:
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 529 ms (beats 29.30%)  
+**Runtime:** 471 ms (beats 86.99%)  
 **Memory:** 0B (beats 100.00%)  
-**Submitted:** 2026-07-01T19:20:12.652Z  
+**Submitted:** 2026-07-01T19:20:33.858Z  
 
 ```sql
 # Write your MySQL query statement below

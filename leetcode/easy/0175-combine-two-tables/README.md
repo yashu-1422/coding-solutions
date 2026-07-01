@@ -81,9 +81,9 @@ addressId = 1 contains information about the address of personId = 2.
 ## Solution
 
 **Language:** SQL  
-**Runtime:** 92 ms  
-**Memory:** 0B  
-**Submitted:** 2026-07-01T19:12:49.033Z  
+**Runtime:** 405 ms (beats 83.66%)  
+**Memory:** 0B (beats 100.00%)  
+**Submitted:** 2026-07-01T19:12:53.189Z  
 
 ```sql
 # Write your MySQL query statement below

@@ -1,24 +1,13 @@
 class Solution {
     public int numberOfSubstrings(String s) {
+        int res = 0;
+        int[] p = {-1, -1, -1};
 
-        int[] freq = new int[3];
-        int left = 0;
-        int ans = 0;
-        int n = s.length();
-
-        for (int right = 0; right < n; right++) {
-
-            freq[s.charAt(right) - 'a']++;
-
-            while (freq[0] > 0 && freq[1] > 0 && freq[2] > 0) {
-
-                ans += n - right;
-
-                freq[s.charAt(left) - 'a']--;
-                left++;
-            }
+        for (int i = 0; i < s.length(); i++) {
+            p[(s.charAt(i) & 31) - 1] = i;
+            res += Math.min(p[0], Math.min(p[1], p[2])) + 1;
         }
 
-        return ans;
+        return res;
     }
 }

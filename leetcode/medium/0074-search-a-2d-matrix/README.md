@@ -45,7 +45,7 @@ Output: false
 **Language:** Java  
 **Runtime:** 0 ms  
 **Memory:** 42.4 MB  
-**Submitted:** 2026-07-02T19:15:51.870Z  
+**Submitted:** 2026-07-02T19:16:59.737Z  
 
 ```java
 class Solution {
@@ -57,8 +57,8 @@ class Solution {
 
         while(low<=high){
             int mid = low +(high-low)/2;
-            int row = mid/m;
-            int col=mid%m;
+            int row = mid / n;
+            int col = mid % n;
 
             if(matrix[row][col]==target){return true;}
             else if(matrix[row][col]<target){

@@ -62,9 +62,9 @@ Any path that does not go through the cell `(1, 1)` is unsafe since your health 
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms  
-**Memory:** 42.3 MB  
-**Submitted:** 2026-07-02T16:14:29.077Z  
+**Runtime:** 13 ms (beats 77.87%)  
+**Memory:** 47.1 MB (beats 42.62%)  
+**Submitted:** 2026-07-02T16:14:36.710Z  
 
 ```java
 import java.util.PriorityQueue;

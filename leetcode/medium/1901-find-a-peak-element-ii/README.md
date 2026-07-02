@@ -45,9 +45,9 @@ Explanation: Both 30 and 32 are peak elements so [1,1] and [2,2] are both accep
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.8 MB  
-**Submitted:** 2026-07-02T20:13:40.504Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 119.1 MB (beats 30.31%)  
+**Submitted:** 2026-07-02T20:13:53.090Z  
 
 ```java
 class Solution {

@@ -60,9 +60,9 @@ After removing outer parentheses of each part, this is "" + "" = "".
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.8 MB  
-**Submitted:** 2026-07-03T15:40:07.130Z  
+**Runtime:** 4 ms (beats 53.15%)  
+**Memory:** 43.3 MB (beats 84.30%)  
+**Submitted:** 2026-07-03T15:40:14.048Z  
 
 ```java
 class Solution {

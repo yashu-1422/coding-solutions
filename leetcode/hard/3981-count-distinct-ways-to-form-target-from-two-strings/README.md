@@ -91,8 +91,8 @@ The only way is to choose `word1[0] = 'a'`, `word2[0] = 'c'`, and `word2[2] = 'e
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.8 MB  
-**Submitted:** 2026-07-04T18:17:55.776Z  
+**Memory:** 42.6 MB  
+**Submitted:** 2026-07-04T18:18:10.349Z  
 
 ```java
 

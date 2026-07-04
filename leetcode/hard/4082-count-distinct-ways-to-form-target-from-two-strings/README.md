@@ -90,9 +90,9 @@ The only way is to choose `word1[0] = 'a'`, `word2[0] = 'c'`, and `word2[2] = 'e
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1541 ms (beats 19.27%)  
-**Memory:** 61.5 MB (beats 60.35%)  
-**Submitted:** 2026-07-04T18:17:58.979Z  
+**Runtime:** 1542 ms (beats 19.11%)  
+**Memory:** 61.2 MB (beats 60.66%)  
+**Submitted:** 2026-07-04T18:18:04.696Z  
 
 ```java
 

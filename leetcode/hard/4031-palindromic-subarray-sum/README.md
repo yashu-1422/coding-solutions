@@ -71,8 +71,8 @@ The subarray with only one element is a palindrome. Therefore, the answer is 100
 
 **Language:** Java  
 **Runtime:** 15 ms (beats 61.66%)  
-**Memory:** 142.5 MB (beats 44.91%)  
-**Submitted:** 2026-07-05T17:34:19.555Z  
+**Memory:** 142.7 MB (beats 28.69%)  
+**Submitted:** 2026-07-05T17:34:26.273Z  
 
 ```java
 

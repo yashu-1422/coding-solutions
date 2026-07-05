@@ -46,7 +46,7 @@ Return `true` if it is possible to make `s` a subsequence of `t`; otherwise, ret
 **Language:** Java  
 **Runtime:** 17 ms (beats 32.94%)  
 **Memory:** 48.4 MB (beats 35.12%)  
-**Submitted:** 2026-07-05T17:29:30.699Z  
+**Submitted:** 2026-07-05T17:29:40.386Z  
 
 ```java
 class Solution {

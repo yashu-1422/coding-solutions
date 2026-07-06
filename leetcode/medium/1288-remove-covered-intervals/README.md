@@ -41,9 +41,9 @@ Output: 1
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.8 MB  
-**Submitted:** 2026-07-06T16:32:55.236Z  
+**Runtime:** 7 ms (beats 52.31%)  
+**Memory:** 46.3 MB (beats 82.87%)  
+**Submitted:** 2026-07-06T16:33:02.237Z  
 
 ```java
 import java.util.Arrays;

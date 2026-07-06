@@ -39,12 +39,14 @@ Explanation: There is no common prefix among the input strings.
 
 **Language:** Java  
 **Runtime:** 0 ms  
-**Memory:** 42.8 MB  
-**Submitted:** 2026-07-06T16:24:22.916Z  
+**Memory:** 42.2 MB  
+**Submitted:** 2026-07-06T16:27:02.394Z  
 
 ```java
 class Solution {
     public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0)
+            return "";
         StringBuilder ans =  new StringBuilder();
         Arrays.sort(strs);
         String first = strs[0];

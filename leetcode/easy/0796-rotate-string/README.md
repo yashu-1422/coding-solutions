@@ -38,31 +38,19 @@ Output: false
 ## Solution
 
 **Language:** Java  
-**Runtime:** 1 ms (beats 44.44%)  
-**Memory:** 43.5 MB (beats 11.38%)  
-**Submitted:** 2026-07-08T15:22:00.265Z  
+**Runtime:** 0 ms  
+**Memory:** 42.5 MB  
+**Submitted:** 2026-07-08T15:24:02.548Z  
 
 ```java
 class Solution {
     public boolean rotateString(String s, String goal) {
-        if (s.length() != goal.length()) {
-            return false;
-        }
-
-        // Try all possible rotations of s
-        for (int i = 0; i < s.length(); i++) {
-            String rotated = s.substring(i) + s.substring(0, i);
-            if (rotated.equals(goal)) {
-                // Return true if a match is found
-                return true;  
-            }
-        }
-
+         if (s.length() != goal.length())
         return false;
+
+    return (s + s).contains(goal);
     }
 }
-    
-
 ```
 
 ---

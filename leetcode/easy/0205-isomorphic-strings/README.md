@@ -52,28 +52,29 @@ The strings `s` and `t` can not be made identical as `'1'` needs to be mapped to
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.7 MB  
-**Submitted:** 2026-07-08T13:39:59.137Z  
+**Runtime:** 6 ms (beats 89.14%)  
+**Memory:** 43.8 MB (beats 58.91%)  
+**Submitted:** 2026-07-08T13:40:14.958Z  
 
 ```java
 class Solution {
     public boolean isIsomorphic(String s, String t) {
-         int[] m1 = new int[256], m2 = new int[256];
-          int n = s.length();
-          for (int i = 0; i < n; ++i) {
-              // Return false if mapping is inconsistent
-              if (m1[s.charAt(i)] != m2[t.charAt(i)]) return false;
-  
-              // Update last seen index for both characters
-              m1[s.charAt(i)] = i + 1;
-              m2[t.charAt(i)] = i + 1;
-          }
-  
-          // Return true if all character mappings are consistent
-          return true;
-      }
+        int[] m1 = new int[256], m2 = new int[256];
+        int n = s.length();
+        for (int i = 0; i < n; ++i) {
+            // Return false if mapping is inconsistent
+            if (m1[s.charAt(i)] != m2[t.charAt(i)])
+                return false;
+
+            // Update last seen index for both characters
+            m1[s.charAt(i)] = i + 1;
+            m2[t.charAt(i)] = i + 1;
+        }
+
+        // Return true if all character mappings are consistent
+        return true;
     }
+}
 
 ```
 

@@ -50,9 +50,9 @@ Note that 'A' and 'a' are treated as two different characters.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.5 MB  
-**Submitted:** 2026-07-09T15:37:38.139Z  
+**Runtime:** 10 ms (beats 89.89%)  
+**Memory:** 47.6 MB (beats 12.41%)  
+**Submitted:** 2026-07-09T15:37:44.368Z  
 
 ```java
 class Solution {

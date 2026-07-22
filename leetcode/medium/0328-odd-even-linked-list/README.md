@@ -41,8 +41,8 @@ Output: [2,3,6,7,1,5,4]
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 46.1 MB (beats 89.93%)  
-**Submitted:** 2026-07-20T02:35:35.995Z  
+**Memory:** 46.5 MB (beats 16.86%)  
+**Submitted:** 2026-07-22T17:47:00.546Z  
 
 ```java
 /**
@@ -55,6 +55,7 @@ Output: [2,3,6,7,1,5,4]
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+ 
 class Solution {
     public ListNode oddEvenList(ListNode head) {
 
